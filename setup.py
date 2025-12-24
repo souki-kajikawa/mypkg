@@ -1,6 +1,10 @@
 from setuptools import find_packages, setup
 import os
 from glob import glob
+<<<<<<< HEAD
+=======
+
+>>>>>>> lesson10
 package_name = 'mypkg'
 
 setup(
@@ -11,7 +15,11 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+<<<<<<< HEAD
         (os.path.join('share', package_name), glob('launch/*.launch.py'))
+=======
+        ('share/' + package_name + '/launch', glob('launch/*.launch.py')),
+>>>>>>> lesson10
     ],
     install_requires=['setuptools'],
     zip_safe=True,
