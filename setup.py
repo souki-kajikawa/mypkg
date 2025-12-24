@@ -1,10 +1,6 @@
 from setuptools import find_packages, setup
 import os
 from glob import glob
-<<<<<<< HEAD
-=======
-
->>>>>>> lesson10
 package_name = 'mypkg'
 
 setup(
@@ -15,16 +11,12 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-<<<<<<< HEAD
         (os.path.join('share', package_name), glob('launch/*.launch.py'))
-=======
-        ('share/' + package_name + '/launch', glob('launch/*.launch.py')),
->>>>>>> lesson10
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='souki',
-    maintainer_email='s24c1038st@s.chibakoudai.jp',
+    maintainer='tknao',
+    maintainer_email='s24c1073hs@s.chibakoudai.jp',
     description='a package for practice',
     license='BSD-3-Clause',
     extras_require={
@@ -37,5 +29,5 @@ setup(
         'talker = mypkg.talker:main',
         'listener = mypkg.listener:main',
         ],
-    },
+        },
 )
