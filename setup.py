@@ -15,8 +15,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='tknao',
-    maintainer_email='s24c1073hs@s.chibakoudai.jp',
+    maintainer='souki',
+    maintainer_email='s24c1038st@s.chibakoudai.jp',
     description='a package for practice',
     license='BSD-3-Clause',
     extras_require={
