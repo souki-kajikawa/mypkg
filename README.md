@@ -10,17 +10,17 @@
 - ライセンス
 
 ## 概要
-3秒ごとのネットワークから受信したデータ量を表示するプログラムです.　　
+3秒ごとのネットワーク受信量を表示するプログラムです.　　
 
 ## 使用準備
-以下のコマンドをターミナルで実行します.
+ros2を使える環境を用意したあと, 以下のコマンドをターミナルで実行します.
 ```
 $ git clone git@github.com:souki-kajikawa/mypkg.git
-$ cd mypkg
+$ colcon build
 ```
 
 ## 実行方法
-psutil.net_io_counters()を用いて３秒ごとに受信したデータ量(byte)を取得し出力します.
+psutil.net_io_counters()コマンドを用いて３秒ごとに受信したデータ量(byte)を取得し出力します.
 - 実行例
 ```
 $ ros2 launch mypkg talk_listen.launch.py
