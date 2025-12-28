@@ -15,8 +15,8 @@
 ## 使用準備
 以下のコマンドをターミナルで実行します.
 ```
-$ git clone git@github.com:souki-kajikawa/robosys2025.git
-$ cd robosys2025
+$ git clone git@github.com:souki-kajikawa/mypkg.git
+$ cd mypkg
 ```
 
 ## 実行方法
